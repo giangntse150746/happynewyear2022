@@ -20,7 +20,9 @@
 
   open_env = function () {
     $(".section--cards").addClass("is-opened");
-
+    setTimeout(() => {
+        $("#button").removeClass("hidden");
+    }, 5000);
     return $(".env-btn").fadeOut();
   };
 
