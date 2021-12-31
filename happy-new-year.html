@@ -19,6 +19,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popmotion/4.3.4/popmotion.global.min.js"></script>
+  <script src="src/assets/js/utils.js"></script>
 </head>
 
 <body>
@@ -900,9 +901,11 @@
         </g>
       </svg>
     </div>
-    <div class="button-container noselect">
-      <p class="button">A MYSTERIOUS THING IS COMING</p>
+    <div id="button" class="button-container noselect">
+      <p class="button" onClick="comeToWishes()">A MYSTERIOUS THING IS COMING</p>
     </div>
+  </div>
+  <div id="giftContainer" class="gift-container">
   </div>
 </body>
 <script src="src/assets/js/happy-new-year.js"></script>

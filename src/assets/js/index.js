@@ -7,5 +7,4 @@ $(document).ready(() => {
     window.location.href = 'count-down.html';
   else
     window.location.href = 'happy-new-year.html';
-
 });

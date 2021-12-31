@@ -1,3 +1,7 @@
+.button {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .overlay {
   position: absolute;
   width: 100%;
