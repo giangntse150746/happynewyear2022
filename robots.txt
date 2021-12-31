@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: happynewyear2022.netlify.app/src/WEB-INF/sitemap.xml
